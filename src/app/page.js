@@ -1,10 +1,17 @@
-
-
 import React from 'react'
+import Header from './components/Header'
 
-export const page = () => {
+
+const page = () => {
   return (
-    
-    <div>page</div>
+    <div>
+
+      <Header/>
+      <h1 className='text-43xl font-bold '>hffe</h1>
+    </div>
+
+
   )
 }
+
+export default page
