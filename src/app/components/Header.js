@@ -3,8 +3,8 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div >
-        <h1 className='text-red font-medium'>kaisse hai </h1>
+    <div className='bg-black text-white'>
+        <h1 className=' font-bold text-center text-white' >kaisse hai </h1>
         Header
         </div>
   )

@@ -7,7 +7,7 @@ const page = () => {
     <div>
 
       <Header/>
-      <h1 className='text-43xl font-bold '>hffe</h1>
+      <h1 className='font-bold text-red-500 '>hffe</h1>
     </div>
 
 
