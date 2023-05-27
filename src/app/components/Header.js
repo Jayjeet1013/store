@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
+
 const Header = () => {
   return (
     <div className ='bg-green-400 text-white h-16  p-4 flex  ' >
@@ -19,6 +20,12 @@ const Header = () => {
   
     <Image src='/Flag_of_India.svg' width={500} height={500}  className='w-5  h-6 ml-2'/>
     <h2 className='w-5  ml-1'>EN</h2>
+       <div class="">   
+     <h4 class="ml-4 ">Hello,sign in</h4>
+     <h2 class="flex ml-3">Account & Lists 
+     <Image src='/arrow_drop_down.png' width={34} height={30} className='p-33 ' alt='logoof arrow' />
+     </h2>
+</div>
 
         </div>
   )
