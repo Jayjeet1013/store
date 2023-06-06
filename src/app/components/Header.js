@@ -30,7 +30,9 @@ const Header = () => {
         <h4 className='px-4'> Returns</h4>
         <h3 className='px-4'>& Orders</h3>
 
-        </div>   
+        </div>  
+        <Image src='/cart-logo.png' width={34} height={30} className='ml-4' alt='logo of cart'/>
+        <span className='font-bold py-2'>Cart</span>
         </div>
   )
 }
