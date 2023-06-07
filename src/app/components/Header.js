@@ -8,7 +8,7 @@ const Header = () => {
        <Image src='/Amazon-logo.png' width={500} height={500} className='w-24 h-30 cursor-pointer ' alt='logo'/>
         <h1 className=' font-bold ml-9 cursor-pointer text-xs text-black'  > Hello 
    
-        <span className='px-3 flex cursor-pointer text-lg'>      <Image src='/location-logo.png' width={500} height={500}  className='w-6 h-7 flex' alt='logo'/>select your address</span></h1>
+        <span className='px-3 flex cursor-pointer text-lg '>      <Image src='/location-logo.png' width={500} height={500}  className='w-6 h-7 flex ' alt='logo'/>select your address</span></h1>
         <input type="text" placeholder="Search Amazon.in" class="py-3 ml-4 px-5 w-1/2  focus:outline-none"/>
         <button class="bg-yellow-200 text-black hover:bg-gray-300  py-2 px-4 mr-2">
     <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
