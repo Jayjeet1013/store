@@ -7,9 +7,7 @@ const page = () => {
   return (
     <div>
 
-      <Header/>
-      <Miniheader/>
-      <Body/>
+    
     </div>
 
 
