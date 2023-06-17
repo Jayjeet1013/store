@@ -33,13 +33,13 @@ const Todaydeal = () => {
         ];
   return (
     <div>
-        
-        <div className='flex mx-72 my-8 '>
-              
+      
+        <div className=' mx-72 my-8 flex'>
+                <h2 className='absolute p-1'>Todays Deals</h2>
                 {todaydeals.map(({id,imageSrc,title,description})=>(
                       
-                        <div>  
-                        <Image src={imageSrc} className='p-4'/>
+                        <div className=''>  
+                        <Image src={imageSrc} className='p-8'/>
                         <h1>{title}</h1>
                         <p>{description}</p>
                         </div>

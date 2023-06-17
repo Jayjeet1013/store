@@ -8,7 +8,7 @@ export default function Miniheader() {
     <h5 className='flex px-6 py-1.5 cursor-pointer'><AiOutlineMenu /><span className='px-2 font-bold cursor-pointer' >All</span> </h5>
    </div>
    <div className='flex space-x-4 cursor-pointer  py-1'>
-        <p>Amazon miniTV </p>
+        <p> MiniTV </p>
         <p>Sell </p>
         <p>Best Sellers </p>
         <p>Mobiles </p>

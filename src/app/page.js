@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Miniheader from './components/Miniheader'
 import Body from './components/Body'
 import Todaydeal from './components/Todaydeal'
+import Kitchen from './components/Kitchen'
 
 const page = () => {
   return (
@@ -10,6 +11,7 @@ const page = () => {
 
 <Body/>
 <Todaydeal/>
+<Kitchen/>
     </div>
 
 
