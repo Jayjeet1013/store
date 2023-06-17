@@ -5,9 +5,9 @@ export default function Miniheader() {
   return (
     < div className='h-8 flex  text-white  bg-blue-600'>
    <div className='flex'>
-    <h5 className='flex px-6 py-1.5 '><AiOutlineMenu /><span className='px-2 font-bold'>All</span> </h5>
+    <h5 className='flex px-6 py-1.5 cursor-pointer'><AiOutlineMenu /><span className='px-2 font-bold cursor-pointer' >All</span> </h5>
    </div>
-   <div className='flex space-x-4  py-1'>
+   <div className='flex space-x-4 cursor-pointer  py-1'>
         <p>Amazon miniTV </p>
         <p>Sell </p>
         <p>Best Sellers </p>
