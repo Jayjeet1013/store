@@ -4,6 +4,7 @@ import Image from 'next/image'
 
 const Header = () => {
   return (
+    
     <div className ='bg-green-400 text-white h-16  p-4 flex  ' >
       <h1 className='w-7 font-bold cursor-pointer'>Store</h1>
         <h1 className=' font-bold ml-9 cursor-pointer text-xs text-black '  > Hello 

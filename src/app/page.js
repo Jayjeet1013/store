@@ -5,6 +5,8 @@ import Body from './components/Body'
 import Todaydeal from './components/Todaydeal'
 import Kitchen from './components/Kitchen'
 import Middle from './components/Middle'
+import BeautyPro from './components/BeautyPro'
+import Footer  from './components/Footer'
 const page = () => {
   return (
     <div>
@@ -13,6 +15,8 @@ const page = () => {
 <Todaydeal/>
 <Kitchen/>
 <Middle/>
+<BeautyPro/>
+<Footer/>
     </div>
 
 
