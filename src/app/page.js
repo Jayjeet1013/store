@@ -4,7 +4,7 @@ import Miniheader from './components/Miniheader'
 import Body from './components/Body'
 import Todaydeal from './components/Todaydeal'
 import Kitchen from './components/Kitchen'
-
+import Middle from './components/Middle'
 const page = () => {
   return (
     <div>
@@ -12,6 +12,7 @@ const page = () => {
 <Body/>
 <Todaydeal/>
 <Kitchen/>
+<Middle/>
     </div>
 
 
